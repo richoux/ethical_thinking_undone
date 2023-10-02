@@ -1,0 +1,256 @@
+\documentclass[conference]{IEEEtran}
+%\documentclass[a4paper, 11pt]{article}
+
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage{eurosym}
+\usepackage{lmodern} % for textsc
+
+\usepackage{authblk} % for authors affiliation
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = blue, %Colour of citations
+  breaklinks = true %use \href{url}{\nolinkurl{display URL}} for breakable long URLs
+}
+
+% \topmargin = 0pt
+% \headheight = 5pt
+% \headsep = 10pt
+% \textwidth = 410pt
+% \textheight = 650pt
+% \oddsidemargin = 20pt
+
+\title{A café-philo for computer science:\\motives, experience and next steps}
+\date{}
+
+\author[1,3]{Marc Bruyère}
+\author[2,3]{Florian Richoux}
+\author[4]{Daphné Tuncer}
+\author[5]{Marc van der Wal}
+\affil[ ]{\it florian@richoux.fr}
+\affil[1]{IIJ Research Lab, Japan}
+\affil[2]{AIST, Japan}
+\affil[3]{JFLI, CNRS, Japan}
+\affil[4]{École des Ponts ParisTech, France}
+\affil[5]{Afnic, France}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+  In  this short  paper,  we report  on our  experience  setting up  a
+  monthly  reading group  around  the  socio-technical challenges  and
+  ethics of computer science and  digitalization. Our reading group is
+  the result  of an  encounter between  four computer  scientists with
+  different backgrounds and career paths,  who work in different areas
+  of computer systems, and who  live in different places. Beyond these
+  factual differences,  we share an  eagerness to talk with  our peers
+  not only  about our technical contributions  to digital developments
+  but also about their implications on the future of our societies.
+\end{abstract}
+
+\section{The need to discuss}
+
+The  incidence of  digital developments  in day-to-day  life has  been
+massive over  the last  30 years.  From the  way a  large part  of our
+interactions  takes  place  today  to the  way  vital  infrastructures
+operate or the way the  world’s geopolitics is shaped, the realization
+of digital tools and technologies is far from being a technical matter
+only. As practitioners of computer science, both through our education
+in college and through our  professional occupation, we, as co-authors
+of this paper, acknowledge that  we have directly been contributing to
+the construction of this digital era.
+
+Before being computer scientists, we are people who live, work, evolve
+in a  set era and  a set system,  and indifferently from  non computer
+scientists,   are  recipient   of  the   outcomes  of   these  digital
+developments. This  status of  both the  operator of  developments and
+their recipient makes us greatly think about what happens with the use
+and  the application  of digital  constructs and  technologies in  the
+wild. It  is however not  always straightforward to  communicate these
+interrogations in our professional communities that often dismiss such
+considerations as irrelevant to the purpose of the community.
+
+We do however  realize that talking with our peers  about these issues
+is fundamental to broaden a  perspective that can otherwise easily get
+defined  by  the  view  of   an  epsilon  percentage  of  the  world’s
+population. We  therefore decided  to set  a reading  group up  in the
+manner of  a café-philo  for computer  science that  lets participants
+share and  express their  opinion on anything  related to  the digital
+world.
+
+\section{Reading to debate}
+
+For the  four of  us, the reading  group is a  side project.  It takes
+place  in  sessions organized  on  a  monthly  basis. The  setting  is
+informal. The objective is to encourage  the free sharing of ideas and
+opinions. The time for discussion  is constrained only by the one-hour
+slot limit reserved for this activity.
+
+Each  session  is led  by  one  of  the  participants, on  a  rotating
+basis. The  lead for the  session presents a  piece of material  to be
+discussed. The choice  of the material is entirely up  to the lead. It
+can be  a scientific publication,  a book  targeted to a  more general
+audience,  an audio  or  a video,  a documentary,  an  article from  a
+newspaper, etc., anything that can  trigger a discussion regarding the
+role and impact  of digitalization. Sessions are  usually not formally
+concluded. The debate remains open  and the topics discussed are aimed
+to support each of us with new ideas and perspectives to be applied in
+our practice, as well as to consolidate a general reflection.
+
+Our reading  group has been  meeting for  two years during  which many
+different topics  were debated. One  of the sessions was  for instance
+dedicated to  discussing the workshop  on the environmental  impact of
+Internet   applications  and   systems  organized   by  the   Internet
+Architecture Board in 2022 \cite{IAB22}.  Other sessions focused on AI
+with the recent paper by Michael  Cook on the social responsibility in
+the  domain  of Game  AI  \cite{Cook21},  the  book “Weapons  of  Math
+Destruction” by  Cathy O’Neil  \cite{WMD16} or  a selection  of papers
+presented at the ACM FAccT 2023 conference.
+
+In between sessions, we also  exchange links to interesting content on
+a Slack channel.
+
+\section{Implementation challenges}
+
+Over the course of the last two years, we had to make some adjustments
+to the way we carry out the  activity, an experience from which we are
+also learning.
+
+We reside  in different geographical  areas located in  different time
+zones. The sessions take place online which corresponds to morning and
+late afternoon calls depending on our  location. The choice of a video
+conferencing tool adapted  to our requirements and needs  has not been
+straightforward.  We want  something easily  accessible (no  points in
+typing 10,000 codes to enter a room), secure and respectful of private
+communication.
+
+When we  started the  group, we did  not set any  agenda prior  to the
+session.  The discussion  was  entirely unstructured.  We did  however
+realize that such a format was  not sustainable in the long run. There
+was naturally a need for some directions. We therefore decided to turn
+the discussion room into a reading  group by which one person would be
+responsible to  present a  piece of  work to the  others from  which a
+discussion could be engaged.
+
+It  is essential  for us  to keep  the reading  group informal.  While
+highly rewarding  from an  intellectual perspective, this  activity is
+(currently)  a  side  project  and  we  believe  that  making  it  too
+“academic” might impair  our enthusiasm. At the same  time, it rapidly
+turned evident  that having a  goal is  necessary to keep  the dynamic
+going. Given that we work in  different domains and sectors, finding a
+common target for this initiative can be challenging.
+
+\section{Next steps}
+
+The reading  group has  enabled us  to go  through many  different use
+cases, reported  in the press,  in the scientific  literature, through
+outreach initiatives, etc.
+
+One of  our goals is  to prepare a manifesto,  similar to the  one for
+ethics  in mathematics,  but applied  to ethics  in computer  science,
+based on all the content we discussed.
+
+\section{About us}
+
+\subsection{Marc van der Wal}
+
+Marc van der Wal is an R\&D engineer at Afnic, the registry for domain
+names for France (.fr) and overseas territories.
+
+Among his research and development projects, he is exploring ideas for
+fighting  abuse (spam,  phishing, etc.)  involving domain  names. Some
+registries,  such as  the .nl  and .be  registries, already  implement
+techniques  based  on  machine  learning  in  order  to  identify,  at
+registration   time,  risk   factors  that   may  indicate   malicious
+intent.  But how  can  one make  sure  that these  tools  are free  of
+undesirable side-effects?  His participating in this  reading group is
+one way to find answers to this question.
+
+He is particularly interested in explainability of AI models: it is an
+important aspect  in the search for  ethics. He is also  interested in
+questions regarding privacy and combating digital exclusion.
+
+\subsection{Daphné Tuncer}
+
+Daphné  has  been  working  in  the academic  research  arena  for  15
+years.  Her  research interests  are  in  the  domain of  network  and
+computer  system  management. While  she  has  mostly been  publishing
+pieces of  work focusing on technical  solutions until now, she  has a
+strong   interest  in   the  socio-economics   of  the   Internet  and
+digitalization, and  their impact on  people and the  environment. She
+reads about, listens  to and watches a lot about  ethics, history, and
+geopolitics, that  are all  great sources  of inspiration  to question
+research  from  the what  for,  why  and  how perspective.  Daphné  is
+currently with  École des Ponts  ParisTech, France. She  initiated the
+reading group in 2021 with Marc Bruyère.
+
+\subsection{Florian Richoux}
+
+The  fruits of  AI research  can unlock  tremendous possibilities  and
+opportunities  for people,  but it  can also  be misused  for purposes
+going against  the common good.  Like the  Laws on Bioethics  voted in
+France in the  late 90’s, we need a legal  frame to delimit boundaries
+between what is  an ethical usage of  AI and what it  is not, defining
+what kind of AI usage we want for our societies.
+
+This is the purpose of the European AI Act that has been passed by the
+European Parliament on June 2023. This  act proposes a first set of AI
+regulations, but  may not cover all  possible usage of AI  yet: only 6
+months before  its adoption by  the European Parliament,  the European
+Council  adopted a  version of  the text  without taking  into account
+Generative AIs, such  as ChatGPT or DALL·E. As  we know, technological
+improvements in  AI, and in  particular in Machine Learning  (ML), are
+advancing rapidly,  and making difficult for  legislative apparatus to
+keep up.  It is our responsability,  as actors of AI  advancements, to
+keep ourselves  informed of the  new regulations around AI,  to detect
+and analyse  the gaps and  missing rules of  such acts, and  to inform
+both the people and policy makers about what remains to be done.
+
+\subsection{Marc Bruyère}
+Marc  Bruyere began  his  career  in 1996  with  the Internet  Service
+Provider Club-Internet.  Over the  years, he  has worked  with various
+organizations, including Cisco, Vivendi Universal, Credit Suisse First
+Boston,  Airbus/Dimension  Data,  Force10   Networks,  and  Dell.  His
+academic journey started in  2012 with a Ph.D. at the  LAAS CNRS and a
+two-year PostDoc  at the University  of Tokyo. His doctoral  thesis is
+about   open-source  OpenFlow   SDN  for   Internet  Exchange   Points
+(IXPs). Today, he is a senior researcher at IIJ Lab in Japan.
+
+The  rapid evolution  of  internet infrastructure  over  the past  few
+decades  has  undeniably  transformed  the  landscape  of  our  global
+society.  With  approximately  65\%  of  the  world’s  population  now
+connected  online,  the pervasive  nature  of  this digital  realm  is
+evident.  While  this connectivity has brought  many opportunities and
+benefits,  it has  also given  rise to  significant challenges.  Among
+these are  the emerging societal  issues, such as the  digital divide,
+the society of control that also  appeared as a unique response to the
+security  or   control  dilemma,  and  the   undeniable  environmental
+implications and sustainability issues.
+
+Given these  challenges, it  becomes essential  to address  a research
+question:  How  can  we  envision  Internet  and  computer  networking
+technologies to be more attuned to human-centric values and prioritize
+small, localized scales of operation?
+
+Computer  networking  researchers  can  not ignore  or  avoid  ethical
+questions. Marc has been examining  and exploring the potential avenue
+in  low-tech solutions  combined with  free software  and hardware  as
+choices.  By  advocating a  low-tech  approach,  we could  potentially
+reduce the  environmental footprint  of our digital  activities. Using
+free  software and  hardware  ensures that  these technologies  remain
+accessible, adaptable,  and resilient against  monopolistic tendencies
+that can sometimes stifle innovation and inclusivity.
+
+
+\bibliographystyle{alpha} \bibliography{paper}
+
+\end{document}
