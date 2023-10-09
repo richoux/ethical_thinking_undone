@@ -29,13 +29,15 @@
 % \textheight = 650pt
 % \oddsidemargin = 20pt
 
+\newcommand{\equalcontribmark}{*}
+
 \title{A café-philo for computer science:\\motives, experience and next steps}
 \date{}
 
-\author[1,3]{Marc Bruyère}
-\author[2,3]{Florian Richoux}
-\author[4]{Daphné Tuncer}
-\author[5]{Marc van der Wal}
+\author[1,3]{Marc Bruyère\equalcontribmark}
+\author[2,3]{Florian Richoux\equalcontribmark}
+\author[4]{Daphné Tuncer\equalcontribmark}
+\author[5]{Marc van der Wal\equalcontribmark}
 \affil[   ]{\it   marc@iij.ad.jp    \quad   florian@richoux.fr   \quad
   daphne.tuncer@enpc.fr \quad marc.vanderwal@afnic.fr}
 \affil[1]{IIJ Research Lab, Japan}
@@ -46,6 +48,10 @@
 
 \begin{document}
 \maketitle
+\begingroup\renewcommand\thefootnote{\equalcontribmark}
+\footnotetext{All authors contributed equally to this paper. The author’s
+names are listed in alphabetical order.}
+\endgroup
 
 \begin{abstract}
   In  this short  paper,  we report  on our  experience  setting up  a
